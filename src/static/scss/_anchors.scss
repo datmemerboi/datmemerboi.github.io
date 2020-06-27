@@ -1,0 +1,31 @@
+a {
+  font-family: $primary-fontFam;
+  text-decoration: none;
+}
+a.blue-links {
+  color: $blue-link-color;
+  &:hover {
+    color: $blue-hover-link-color;
+  }
+  &:focus {
+    color: $blue-hover-link-color;
+  }
+}
+a.green-links {
+  color: $primary-color;
+  &:hover {
+    color: $secondary-color;
+  }
+  &:focus {
+    color: $secondary-color;
+  }
+}
+a.red-links {
+  color: $red-link-color;
+  &:hover {
+    color: $pink-link-color;
+  }
+  &:focus {
+    color: $pink-link-color;
+  }
+}

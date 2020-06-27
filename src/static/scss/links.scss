@@ -1,0 +1,16 @@
+@import 'anchors';
+@import 'colors';
+@import 'fonts';
+
+h2, h3 {
+  font-family: $heading-fontFam;
+  font-size: $medium-fontSize;
+}
+table.links-table {
+  width: 35vw;
+  position: relative;
+  left: 13vw;
+}
+a.blue-links {
+  font-size: 1em;
+}
