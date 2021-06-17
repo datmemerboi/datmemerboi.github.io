@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import './static/css/App.css';
-import Links from './components/links.jsx';
-import Projects from './components/projects.jsx';
-import Footnote from './components/footnote.jsx';
-import Skills from './components/skills.jsx';
 import Fade from 'react-reveal/Fade';
+
+const Links = lazy(() => import('./components/links.jsx')),
+      Projects = lazy(() => import('./components/projects.jsx')),
+      Footnote = lazy(() => import('./components/footnote.jsx')),
+      Skills = lazy(() => import('./components/skills.jsx'));
 
 function App() {
   return (

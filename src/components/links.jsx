@@ -1,21 +1,17 @@
 import React from 'react';
+import { links } from '../constants';
 
 const Links = () => {
-  const links = [
-    {"title":"Github Profile","href":"https://github.com/datmemerboi","inner":"fa fa-github"},
-    {"title":"View Resume","href":"https://tinyurl.com/MemerBoiResume","inner":"fa fa-link"},
-    {"title":"Linkedin Profile","href":"https://www.linkedin.com/in/datmemerboi/","inner":"fa fa-linkedin"}
-  ]
-
-  let links_obj = links.map( (dict, ind)=>
-    <td key={dict.title}>
+  let linkRows = links.map((obj)=>
+    <td key={obj.title}>
       <a
         className="blue-links"
-        href={dict.href}
+        href={obj.url}
+        title={obj.title}
+        rel="noopener noreferrer"
         target="_blank"
-        title={dict.title}
       >
-      <i className={dict.inner}></i>
+        <i className = {obj.icon} />
       </a>
     </td>
   );
@@ -24,7 +20,7 @@ const Links = () => {
       <table className="links-table">
         <tbody>
           <tr>
-            {links_obj}
+            {linkRows}
           </tr>
         </tbody>
       </table>
