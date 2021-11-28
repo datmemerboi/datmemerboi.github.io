@@ -38,8 +38,8 @@ export const fancyWords = [
 export const hyperlinks = [
   "https://github.com/datmemerboi",
   "mailto:appliedbyshravan@gmail.com",
-  "https://google.com",
+  "https://drive.google.com/file/d/17hujcLpQl-Kelh2EPLFGf7OS9SHJKV69/view?usp=sharing",
   "https://in.linkedin.com/in/datmemerboi"
 ];
 
-export const buildTime = 1636999641000;
+export const buildTime = 1638105200000;
