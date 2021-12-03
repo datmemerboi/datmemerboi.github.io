@@ -1,57 +1,45 @@
-let projects = [
+export const intro = "<strong>Tips to avoid awkward silence when we next meet:</strong><br/>My typical day consists of unearthing secret JavaScript topics, reading modern web development methodologies, and a lot of deadpan humour.<br/>I lose track of time finding the right color for a palette or finding the right song to play or discussing about cinema/filmmaking.";
+export const introTLDR = "Hi! I'm <strong>Shravan Dave</strong>.<br/> Coding and Designing might catch my eye<br/>but movies and music make my day";
+export const projects = [
   {
-    "title": "Test Case Optimization",
-    "description": "Optimizing test cases of a software project using meta-heuristic algorithms",
-    "url":"https://github.com/datmemerboi/Test-Case-Optimization",
-    "stack": ["Python", "Jupyter Notebook", "Django", "SASS", "ChartJS"]
+    id: "tco",
+    title: "Test Case Optimization",
+    description: "Optimizing the testing process in Software Development by applying Meta-heuristic Algorithms on a test suite",
+    url: "https://github.com/datmemerboi/Test-Case-Optimization",
+    keywords: ["python", "testing", "meta-heuristic algorithms", "django"]
   },
   {
-    "title": "Movie Checklist",
-    "description": "A desktop application for your movie checklist",
-    "url":"https://github.com/datmemerboi/Movie-Checklist",
-    "stack": ["Python", "PyQt", "MongoDB", "Firebase DB"]
-  },
-  {
-    "title": "Quick Notes",
-    "description": "A dekstop application to save your notes in a DB",
-    "url":"https://github.com/datmemerboi/Quick-Notes",
-    "stack": ["NodeJS", "ElectronJS", "MongoDB"]
-  },
-  {
-    "title": "TDC",
-    "description": "Patient management system for a clinic",
-    "url":"https://github.com/datmemerboi/TDC",
-    "stack": ["NodeJS", "ExpressJS"]
-  }
-]
-
-let links = [
-  {
-    "title":"Github Profile",
-    "url":"https://github.com/datmemerboi",
-    "icon":"fa fa-github"
-  },
-  {
-    "title":"View Resume",
-    "url":"https://tinyurl.com/MemerBoiResume",
-    "icon":"fa fa-link"
-  },
-  {
-    "title":"Linkedin Profile",
-    "url":"https://www.linkedin.com/in/datmemerboi/",
-    "icon":"fa fa-linkedin"
+    id: "tdc",
+    title: "TDC",
+    description: "A complete system for dental patient management & billing built on MERN stack",
+    url: "https://github.com/datmemerboi/TDC",
+    keywords: ["javascript", "express", "react", "node", "mongodb"]
   }
 ];
 
-let software = [
-  "Python", "JavaScript",
-  "Django", "Node",
-  "React", "Express",
-  "MongoDB", "SASS"
+export const jobs = [
+  {
+    id: "insider",
+    title: "Techops Engineer",
+    company: "Paytm Insider",
+    description: "<ul style=\"padding:0;list-style-type:disc;\"><li>Rendered end-to-end support for movie ticket booking flow: handling DB queries, API calls & system logs</li><li>Enabled 30+ external clients to debug and integrate their MiniApps with Paytm</li><li>Developed significant scripts eliminating repetitive BE tasks and facilitating bulk data fetches</li><li>Reported scrum updates to <a href=\"mailto:shivramdega@gmail.com\" style=\"color: var(--theme-color-2)\">Mr. Shivram Dega</a>, <a href=\"mailto:\" style=\"color: var(--theme-color-2)\">Mr. Prashant Tiwari</a></li><li>Understood existing architecture by assisting devs & leads during RCA</li><li>Managed documenation of bridges and the database along with teammates</li></ul>",
+    from: "OCT 2020",
+    to: "NOV 2021"
+  }
 ];
 
-export {
-  projects,
-  links,
-  software
-};
+export const fancyWords = [
+  "Be technical<br/>Look through my Github",
+  "Be verbose<br/>Send me an email",
+  "Be conventional<br/>Read my resume",
+  "Be professional<br/>Go to my linkedin"
+];
+
+export const hyperlinks = [
+  "https://github.com/datmemerboi",
+  "mailto:appliedbyshravan@gmail.com",
+  "https://drive.google.com/file/d/17hujcLpQl-Kelh2EPLFGf7OS9SHJKV69/view?usp=sharing",
+  "https://in.linkedin.com/in/datmemerboi"
+];
+
+export const buildTime = 1638105200000;
