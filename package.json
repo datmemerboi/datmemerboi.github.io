@@ -3,8 +3,8 @@
   "homepage": "https://datmemerboi.github.io/",
   "version": "2.0.1",
   "scripts": {
-    "build": "rollup -c",
-    "dev": "rollup -c -w",
+    "build": "NODE_ENV=prod && rollup --config",
+    "dev": "NODE_ENV=dev && rollup --config --watch",
     "start": "sirv public --no-clear",
     "deploy": "NODE_ENV=prod && gh-pages -b deploy -d public"
   },
