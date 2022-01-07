@@ -6,7 +6,7 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "start": "sirv public --no-clear",
-    "deploy": "ROLLUP_WATCH=false && gh-pages -b deploy -d public"
+    "deploy": "NODE_ENV=prod && gh-pages -b deploy -d public"
   },
   "main": "public/index.html",
   "repository": {
