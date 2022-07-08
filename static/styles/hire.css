@@ -1,0 +1,10 @@
+.hire--container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.hire--row {
+  display: flex;
+  justify-content: center;
+  min-width: 100vw;
+}
