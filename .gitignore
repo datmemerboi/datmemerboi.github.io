@@ -1,9 +1,8 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # production
 public/build
@@ -20,10 +19,5 @@ yarn-debug.log*
 yarn-error.log*
 
 *.zip
-package-lock.json
 
-src/styles/*
-src/components/icons/sun.svelte
-src/components/icons/moon.svelte
-public/global.css
-default-rollup.config.js
+.next/*
