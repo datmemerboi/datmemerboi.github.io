@@ -22,7 +22,7 @@ export const jobs = [
     id: "insider",
     title: "Techops Engineer",
     company: "Paytm Insider",
-    description: "<ul style=\"padding:0;list-style-type:disc;\"><li>Rendered end-to-end support for movie ticket booking flow: handling DB queries, API calls & system logs</li><li>Enabled 30+ external clients to debug and integrate their MiniApps with Paytm</li><li>Developed significant scripts eliminating repetitive BE tasks and facilitating bulk data fetches</li><li>Reported scrum updates to <a href=\"mailto:shivramdega@gmail.com\" style=\"color: var(--theme-color-2)\">Mr. Shivram Dega</a>, <a href=\"mailto:\" style=\"color: var(--theme-color-2)\">Mr. Prashant Tiwari</a></li><li>Understood existing architecture by assisting devs & leads during RCA</li><li>Managed documenation of bridges and the database along with teammates</li></ul>",
+    description: "<ul style=\"padding:0;list-style-type:disc;\"><li>Rendered end-to-end support for movie ticket booking flow: handling DB queries, API calls & system logs</li><li>Enabled 30+ external clients to debug and integrate their MiniApps with Paytm</li><li>Developed significant scripts eliminating repetitive BE tasks and facilitating bulk data fetches</li><li>Reported scrum updates to <a href=\"mailto:shivramdega@gmail.com\" style=\"color: var(--theme-color-2)\">Mr. Shivram Dega</a>, <a href=\"mailto:prashantt@insider.in\" style=\"color: var(--theme-color-2)\">Mr. Prashant Tiwari</a></li><li>Understood existing architecture by assisting devs & leads during RCA</li><li>Managed documenation of bridges and the database along with teammates</li></ul>",
     from: "OCT 2020",
     to: "NOV 2021"
   }
