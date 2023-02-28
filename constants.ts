@@ -1,8 +1,10 @@
 export const RESUME_URL: string =
   'https://drive.google.com/file/d/17hujcLpQl-Kelh2EPLFGf7OS9SHJKV69/view?usp=sharing';
-
-export const DEFAULT_WORK_IMAGE: string =
-  'https://github.githubassets.com/images/modules/site/social-cards/campaign-social.png';
+export const UNI_URL: string = 'https://www.unimelb.edu.au/';
+export const GITHUB_URL: string = 'https://github.com/datmemerboi';
+export const LINKEDIN_URL: string= 'https://in.linkedin.com/in/datmemerboi';
+// export const DEFAULT_WORK_IMAGE: string =
+//   'https://github.githubassets.com/images/modules/site/social-cards/campaign-social.png';
 
 export const NAV_PAGE_ORDER = ['About', 'Skills', 'Portfolio', 'Contact'];
 
