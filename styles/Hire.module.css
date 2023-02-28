@@ -1,0 +1,17 @@
+.hire__container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: indianred; */
+}
+
+.hire__row {
+  display: flex;
+  justify-content: center;
+  min-width: 100vw;
+  /* background-color: cornflowerblue; */
+}
+
+.hire__message {
+  font-size: 1.5em;
+}
