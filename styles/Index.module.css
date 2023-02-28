@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 4rem;
   margin: 4rem 0;
 }
 
@@ -26,11 +26,13 @@
   color: #555;
   font-size: 2em;
 }
+
 .external_links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .link_github {
   color: #0B3E64;
   text-decoration: underline;
@@ -56,20 +58,77 @@
   background: linear-gradient(72.06deg, #EEB830 35.62%, rgba(238, 48, 94, 0.8) 117.73%);
 }
 
+.whomai_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.whoami {
+  max-width: 70%;
+}
+
+@media (max-width: 300px) {
+  .profile{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2em;
+  }
+  .profile_image_container {
+    display: flex;
+    width: 200px;
+    height: 200px;
+  }
+  .profile_image_circle {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
-    background-color: orange;
-    border: solid 1px red !important;
-
+    margin: 1.5rem 0;
+    max-width: 100%;
   }
   .profile {
-    width: inherit;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    gap: 2em;
+  }
+  .profile_name_container {
+    justify-content: center;
+    text-align: center;
+  }
+  .profile_name {
+    font-size: 2.4em;
+  }
+  .subtitle {
+    font-size: 1.5em;
+    font-weight: lighter;
+  }
+  .external_links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .profile_image_container {
+    display: flex;
+    justify-content: center;
   }
   .profile_image_circle {
     width: 300px;
     height: 300px;
+  }
+  .whoami {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 987px) {
+  .external_links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
 }
