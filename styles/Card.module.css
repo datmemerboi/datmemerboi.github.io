@@ -1,0 +1,29 @@
+.card {
+  display: block;
+  width: 29vw;
+  min-height: 20vh;
+  border-radius: 0.7em;
+  background-color: #ddd;
+  padding: 0.5rem 0;
+}
+
+.card__image__container {
+  display: flex;
+  justify-content: center;
+  /* background-color: #fdfdfd; */
+  border-radius: 0.7em;
+}
+
+
+.card__title {
+  margin: 1em 0.8em;
+}
+
+.card__body {
+  margin: 0 0.8em;
+}
+
+.card__link__container {
+  display: flex;
+  justify-content: center;
+}
